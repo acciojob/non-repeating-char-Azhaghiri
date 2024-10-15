@@ -1,7 +1,7 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
 	let charCount = {};
-
+ 
     // Loop through the string to populate the charCount object
     for (let char of str) {
         if (charCount[char]) {
@@ -19,7 +19,7 @@ function firstNonRepeatedChar(str) {
     }
 
     // If no non-repeating character is found, return a message
-    return "null";
+    return null;
 }
 
 const input = prompt("Enter a string");
