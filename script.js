@@ -19,7 +19,7 @@ function firstNonRepeatedChar(str) {
     }
 
     // If no non-repeating character is found, return a message
-    return " ";
+    return "null";
 }
 
 const input = prompt("Enter a string");
